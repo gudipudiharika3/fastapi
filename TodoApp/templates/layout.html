@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel = "stylesheet" type = "text/css" href = "{{url_for('static' , path = '/css/base.css')}}">
-    <link rel = "stylesheet" type = "text/css" href = "{{url_for('static' , path = '/css/bootstrap.css')}}">
+    <link rel = "stylesheet" type = "text/css" href = "{{url_for('static' , path = '/CSS/base.css')}}">
+    <link rel = "stylesheet" type = "text/css" href = "{{url_for('static' , path = '/CSS/bootstrap.css')}}">
     <meta charset="UTF-8">
     <title>TodoApp</title>
 </head>
@@ -12,10 +12,10 @@
 <!--in this, webpages will load in this block using jinja-->
     {% endblock %}
 <!--adding java script files-->
-   <script src="{{url_for('static',path='/js/jquery-slim.js')}}"></script>
-   <script src="{{url_for('static',path='/js/popper.js')}}"></script>
-   <script src="{{url_for('static',path='/js/bootstrap.js')}}"></script>
-   <script src="{{url_for('static',path='/js/base.js')}}" defer></script>
+   <script src="{{url_for('static',path='/Js/jquery-slim.js')}}"></script>
+   <script src="{{url_for('static',path='/Js/popper.js')}}"></script>
+   <script src="{{url_for('static',path='/Js/bootstrap.js')}}"></script>
+   <script src="{{url_for('static',path='/Js/base.js')}}" defer></script>
 <!--defer means no matter this should reload-->
 </body>
 </html>
